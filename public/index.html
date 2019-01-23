@@ -2,14 +2,69 @@
 <html lang="en">
 <head>
   <title>Trip Planner</title>
-
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.css' rel='stylesheet' />
   
-  <script src="./bundle.js" ></script>
+  
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="map">
 
+  <div id="parent-container">
+    <div id="nav">
+      I'm the navbar!!!!!
+    </div>
+    <div id="body-container">
+      <div id="map">
+
+      </div>
+      <div id="ui">
+        <div id="dropdown-options">
+          <form>
+            <label for="hotels">Hotels <br>
+              <select>
+                <option value="Marriott">Marriott</option>
+                <option value="HolidayInn">Holiday Inn</option>
+              <select>
+            </label>
+            <br>
+            <label for="restaurants"> Restaurants <br>
+              <select>
+                <option value="SamuraiMama">Samurai Mama</option>
+                <option value="BurgerKing">Burger King</option>
+              <select>
+            </label>
+            <br>
+            <label for="activities">What you wanna do? <br>
+              <select>
+                <option value="Museums">Museums</option>
+                <option value="ClassyCocktails">Classy Cocktails</option>
+              <select>
+            </label>
+          </form>
+        </div>
+        <div id="itinerary">
+          <hX>Activites</hX>
+          <ul>
+            <li>Go for a walk</li>
+          </ul>
+          <hX>Restaurants</hX>
+          <ul>
+            <li>Get coffee</li>
+          </ul>
+          <hX> ???????? </hX>
+          <ul>
+            <li>Pet dogs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+
+
+
+
+  <script src="./bundle.js" ></script>
 </body>
 </html>

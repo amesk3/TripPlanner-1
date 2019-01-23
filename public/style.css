@@ -7,3 +7,53 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #C1B5AD;
 }
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  /* position: absolute; */
+}
+
+#parent-container {
+  
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+#nav {
+  background-color: rebeccapurple;
+  font-size: 40px;
+}
+
+#body-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: stretch;
+}
+
+#ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+}
+
+#dropdown-options {
+  padding: 20px;
+  font-size: 25px;
+  height: 48%;
+  background-color: ivory;
+}
+
+#itinerary {
+  height: 48%;
+  padding: 20px;
+  background-color: ivory;
+}
+
+
